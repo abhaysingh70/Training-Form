@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav  .search-icon{
+    height: 30px;
+    width: 180px;
+    display: flex;
+
+    border-radius: px;
+    background: blue;
+
+}
+nav .search-icon input{
+    height: 100%;
+    width: 139px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid black;
+}
+nav .search-icon .icon{
+    height: 100%;
+    width: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+nav .search-icon .icon span{
+    color: white;
+    font-size: 18px;
+}
+nav ul .search-icon .icon:hover{
+    background: red;
+}
+
+.ver{
+    border-right: 2px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0.8rem;
+}
+.aaa {
+    background: green;
+}
+
+nav .logo{
+    flex: 1;
+    color: white;
+}
+nav .logo img{
+    display: block;
+    max-width: 100%;
+}
+.label{
+    font-size: 19px;
+    margin-top: 20px;
+}
+nav .dropdown-menu li a {
+    border-bottom: 2px solid cyan;
+
+
+}
+
+.nav ul li a{
+    font-size: 13px;
+}
+.abh{
+    border-bottom: 2px solid cyan;
+}
+
+.wrapper{
+    max-width: 100%;
+    padding: 30px;
+}
+.wrapper .title{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .form .input_field label{
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapper .form .input_field .input{
+    outline: none;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+.wrapper .form .input_field .textarea{
+    height: 47px;
+    outline: none;
+    padding: 5px 80px;
+    border: 1px solid black;
+
+}
+.wrapper .form .input_field .custom-select{
+    border: 1px solid black;
+    border-radius: none;
+    outline: none;
+}
+
+@media (max-width: 420px){
+    .wrapper .form .input_field{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
